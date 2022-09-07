@@ -5,7 +5,8 @@
     "include": []
   },
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
+    "ignoreUploadUnusedFiles": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -13,7 +14,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.26.0",
+  "libVersion": "2.25.4",
   "appid": "wx07a9fac74971ea7a",
   "projectname": "hump",
   "condition": {},
