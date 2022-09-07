@@ -5,7 +5,15 @@
     "pages/cart/cart",
     "pages/cate/cate"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods-detail/goods-detail",
+        "goods-list/goods-list"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "有你就购",
@@ -45,6 +53,5 @@
       "desc": ""
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }
